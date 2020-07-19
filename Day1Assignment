@@ -1,0 +1,29 @@
+	Assignment 1
+ 	Question1
+ 	Blockchain core word means — it is composed of blocks + chain wherein blocks contains data, records or may be transaction unit which are connected to other blocks having data with tight security . For ex u can consider a situation in which you need to send private data to your friend and make sure that no one alters, manipulate view (i.e maintain integrity) then u can just put your data into one block secure it with lock (i.e use SHA -Secured Hash Algorithm or any cryptographic technique) and send to your friend -after verification to receiver end. In this case there is no central person to co-ordinate in between since it is entirely on decentralized network of nodes.
+
+
+ 	Question2
+ 	The initial dependency on central organization is been reduced and depends on distributed ledger system it is more secure verifiable immutable authenticated and much more features it provide 
+ 	Also it also appeared to solve the international bank crisis with the collapse of the investment in 2008 in US.
+ 	Blockchain Addresses the Problem of Data Loss due to Hardware or Connectivity Issues.
+ 	Blockchain Addresses the Problem of Data Corruption of Hardware or Connectivity Issues.
+
+
+
+
+
+ 	Question3
+ 	Blockchain is booming technology which is mixture of Distributed database and cryptography where information is verifiable, unchangeable, tamper-proof and immutable where security is taken upmost care
+
+
+
+ 	Question4
+ 	In Blockchain all blocks are linked to each other and every individual block contains Block number, Transaction records, previous block signature containing hash, mining key
+
+
+
+
+ 	Question5
+ 	All Blocks form a chain where the first block is called genesis bloc and its hash been stored on second block and it further continues since the hash generated is unique for every data any changes like update delete made entirely changes the hash value So even though hacker gets access to some if the hash value he cannot tamper entire block because all are linked once hash changed it would not allow to view and make changes. Since the hash generated is same one can verify at the end if all are getting the hash value same  
+
