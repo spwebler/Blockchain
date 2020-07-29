@@ -1,0 +1,36 @@
+pragma solidity ^0.4.21; 
+
+//shraddha
+
+contract Report {
+    string public name;
+    uint public rollNumber;
+    uint public batch;
+    uint sub1;
+    uint sub2;
+    uint sub3;
+    uint sub4;
+    uint totalMarks;
+    uint minMarks;
+    string public status;
+    
+
+    function Report(string studentName, uint studentRollNo, uint studentBatch, uint sub1_Marks, uint sub2_Marks, uint sub3_Marks, uint sub4_Marks) public{
+        
+        name = studentName;
+        rollNumber = studentRollNo;
+        batch = studentBatch;
+        sub1 = sub1_Marks; 
+        sub2 = sub2_Marks;
+        sub3 = sub3_Marks;
+        sub4 = sub4_Marks;
+        totalMarks = (sub1+sub2+sub3+sub4); //total marks
+        minMarks = 100;  // minimum passing 
+        
+        //The if-else statement below determines the status of the student on the basis of his total marks
+        if (totalMarks >= minMarks ) {status = "Pass";}
+        else
+        {status = "Fail";}
+        
+    }
+    
